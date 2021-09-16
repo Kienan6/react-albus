@@ -12,6 +12,7 @@
     "posttest": "npm run lint",
     "prepare": "npm run build",
     "prepack": "npm run build",
+    "postpack": "",
     "prepublish": "npm run build"
   },
   "repository": "americanexpress/react-albus",
