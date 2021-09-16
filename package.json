@@ -15,6 +15,7 @@
     "build": "babel src -d lib --copy-files",
     "posttest": "npm run lint",
     "prepare": "npm run build",
+    "prepack": "npm run build",
     "prepublish": "npm run build"
   },
   "repository": "americanexpress/react-albus",
