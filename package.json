@@ -9,10 +9,7 @@
   "scripts": {
     "start": "webpack-dev-server --port 3000 --inline --hot --open",
     "test": "jest",
-    "lint": "eslint --ignore-path .eslintignore --ext .js --ext .jsx ./",
-    "prebuild": "npm run lint",
     "build": "babel src -d lib --copy-files",
-    "posttest": "npm run lint",
     "postinstall": "npm run build",
     "prepublish": "npm run build"
   },
