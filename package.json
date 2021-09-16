@@ -10,7 +10,7 @@
     "start": "webpack-dev-server --port 3000 --inline --hot --open",
     "test": "jest",
     "build": "babel src -d lib --copy-files",
-    "postinstall": "npm run build",
+    "prepare": "npm run build",
     "prepublish": "npm run build"
   },
   "repository": "americanexpress/react-albus",
