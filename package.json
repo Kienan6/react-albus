@@ -9,11 +9,10 @@
   "scripts": {
     "test": "jest",
     "build": "babel src -d lib --copy-files",
-    "posttest": "yarn run lint",
-    "prepare": "yarn run build",
-    "prepack": "yarn run build",
+    "prepare": "yarn build",
+    "prepack": "yarn build",
     "postpack": "",
-    "prepublish": "yarn run build"
+    "prepublish": "yarn build"
   },
   "repository": "americanexpress/react-albus",
   "keywords": [
